@@ -1,0 +1,16 @@
+Index: ../PrimerProyectoIdea/src/com/company/Alumno.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.company;\r\n\r\npublic class Alumno {\r\n    private String nombre;\r\n    private String apellido;\r\n\r\n    public Alumno(String nombre, String apellido) {\r\n        this.nombre = nombre;\r\n        this.apellido= apellido;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../PrimerProyectoIdea/src/com/company/Alumno.java b/../PrimerProyectoIdea/src/com/company/Alumno.java
+--- a/../PrimerProyectoIdea/src/com/company/Alumno.java	
++++ b/../PrimerProyectoIdea/src/com/company/Alumno.java	
+@@ -8,4 +8,5 @@
+         this.nombre = nombre;
+         this.apellido= apellido;
+     }
++
+ }
