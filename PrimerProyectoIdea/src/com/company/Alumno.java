@@ -8,4 +8,5 @@ public class Alumno {
         this.nombre = nombre;
         this.apellido= apellido;
     }
+
 }
